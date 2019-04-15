@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e5e5e5;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+#header-title{
+    color: #17a4a3;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#header-subtitle{
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fab234;
+}
+.content-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#h2-sobre{
+    padding: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-sobre{
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1-disposicoes{
+    padding: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-calendario{
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-participacao{
+    padding: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-calendario{
+    padding: 3px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    padding: 5px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.content-image{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px; 
+}
+
+.article-table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.article-table > thead{
+    background-color: #17a4a3;
+}
+
+thead tr td {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 0;
+    width: 50%;
+
+}
+
+.article-table > tbody{
+    background-color: white;
+
+}
+
+tbody tr td{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;   
+    border-top: 1px solid black;  
+}
+.table-etapa{
+    padding: 10px;    
+}
+.td-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: darkgray;
+    text-align: center;    
+}
+.etapa-inscricao{
+    background-color: #99bbff;
+}
+.td-divulgacao{
+    background-color: #ccddff;
+}
+.td-data{
+    background-color: #ccddff;
+    text-align: center;
+}
+.etapa-selecao{
+    background-color: #ffbb33;
+}
+.td-selecao{
+    background-color: #ffcc66;
+}
+.td-data-selecao{
+    background-color: #ffcc66;
+    text-align: center;
+}
+.etapa-presencial{
+    background-color: #00cc44;
+}
+.td-presencial{
+    background-color: #00e673;
+}
+.td-data-presencial{
+    background-color: #00e673;
+    text-align: center;
+}
+#p-etapa{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.h1-online{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-online{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-online{
+    padding: 3px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-online{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.td-online{
+    border: #e5e5e5;
+}
+.h1-inscricao{
+    margin-top: 20px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-inscricao{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-link-inscricao{
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.h1-selecao{
+    margin-top: 20px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-selecao{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p-selecao-red{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.h2-selecao{
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-selecao{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.td-selecao2{
+    border: #e5e5e5;
+    padding: 10px 0;
+}
+.td-sel{
+    padding: 10px 0;
+}
+.h1-presencial{
+    margin-top: 20px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-presencial{
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-presencial{
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-presencial-red{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.h1-premiacao{
+    margin-top: 20px;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-premiacao{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-presencial-principal{
+    border: 1px solid black;
+}
+.table-presencial{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.td-presencial2{
+    padding: 10px 0;
+}
+.td-presencial3{
+    border: #e5e5e5;
+    padding: 10px 0;
+}
+.iframe{
+    width: 100%;
+    height: 500px;
+}
+.td-cat{
+   text-align: center;
+   color: black;
+   background-color: darkgray; 
+}
+
+  input.css3button {
+    margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffa200;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff 50%,
+		#d6d6d6);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #ffffff),
+		to(#d6d6d6));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 3px solid #ffbf00;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.1),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-contact {
+    margin-top: 10px;
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+   
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #ffa200;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ffa205;
+    border-right: 1px solid #ffa205;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+
+  
